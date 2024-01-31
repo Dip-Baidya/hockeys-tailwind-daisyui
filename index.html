@@ -43,7 +43,7 @@
 </head>
 
 <body class="font-manrope">
-    <header class="container mx-auto my-14 md:">
+    <header class="container mx-auto lg:mt-4">
         <!-- navigation area -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -97,6 +97,25 @@
 
         <!-- Slider section -->
 
+        <div class="mx-5 lg:mt-4">
+            <div class="carousel w-full rounded-xl">
+                <div id="slide1" class="carousel-item relative w-full lg:h-[500px]">
+                    <img src="Images/1.png" class="w-full" />
+
+                    <div class="absolute flex transform -translate-y-1/2 left-20 right-5 bottom-0 gap-5">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full lg:h-[500px]">
+                    <img src="Images/2.png" class="w-full" />
+                    <div class="absolute flex transform -translate-y-1/2 left-20 right-5 bottom-0 gap-5">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main></main>
     <footer></footer>
